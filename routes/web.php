@@ -19,3 +19,9 @@ Route::get('/', function () {
 Route::get('/design1', function () {
     return view('design1');
 });
+Route::get('/design2', function () {
+    return view('design2');
+});
+Route::get('/design3', function () {
+    return view('design3');
+});
